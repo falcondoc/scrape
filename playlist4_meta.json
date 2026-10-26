@@ -2,5 +2,6 @@
   "name": "playlist4",
   "label": "XXX Movies catalog",
   "entries": 542,
-  "mode": "seed"
+  "refreshed_utc": "2026-10-26T08:20:57.487145+00:00",
+  "note": "catalog as-is (no probe)"
 }
