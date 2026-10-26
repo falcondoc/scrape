@@ -1,8 +1,7 @@
 #EXTM3U
-#SOURCE: live_catalog
-#REFRESHED: 2026-10-26 08:26 UTC
+#SOURCE: live adult (local catalog)
+#REFRESHED: 2026-10-26 08:14 UTC
 #ENTRIES: 361
-#NOTE: probe unreachable from runner; catalog kept
 
 #EXTINF:-1 tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts

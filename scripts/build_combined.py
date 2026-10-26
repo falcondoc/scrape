@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Build combined_playlist.m3u from playlist1..4 (same names, fixed order)."""
 from __future__ import annotations
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ORDER = ["playlist1.m3u", "playlist2.m3u", "playlist3.m3u", "playlist4.m3u"]
+ORDER = [
+    "playlist1.m3u",
+    "playlist2.m3u",
+    "playlist3.m3u",
+    "playlist4.m3u",
+    "playlist5.m3u",
+]
 OUT = ROOT / "combined_playlist.m3u"
 
 def main():
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    lines = ["#EXTM3U", f"#COMBINED: playlist1+2+3+4", f"#REFRESHED: {now}", ""]
+    lines = ["#EXTM3U", "#COMBINED: playlist1+2+3+4+5", f"#REFRESHED: {now}", ""]
     total = 0
     for name in ORDER:
         path = ROOT / name
@@ -26,7 +31,7 @@ def main():
         lines.extend(body)
         lines.append("")
     OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"combined_playlist.m3u total_streams≈{total}")
+    print(f"combined total_streams≈{total}")
     return 0
 
 if __name__ == "__main__":
