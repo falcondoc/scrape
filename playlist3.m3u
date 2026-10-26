@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u
 #LABEL: MPD / DRM Adult TV (u)
-#REFRESHED: 2026-10-26 06:37 UTC
+#REFRESHED: 2026-10-26 08:33 UTC
 #GENERATOR: mirror_sources.py
 
 #EXTINF:-1 tvg-id="MPD" tvg-logo="https://i.imgur.com/Z7trxue.png" group-title="MPD",MensNeco
