@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Desi / Kaamdesi VOD",
+    "url": "https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u",
+    "note": "playlist1 — desi short clips (kaamdesi / mmsbee)"
+  },
+  {
+    "label": "Adult Live + VOD (s)",
+    "url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
+    "note": "s.m3u — live adult channels + some VOD"
+  },
+  {
+    "label": "MPD / DRM Adult TV (u)",
+    "url": "https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u",
+    "note": "u.m3u — dash/MPD adult channels (Babes, Dorcel, etc.)"
+  },
+  {
+    "label": "XXX Movies (x)",
+    "url": "https://raw.githubusercontent.com/falcondoc/above18/main/x.m3u",
+    "note": "x.m3u — adult movie VOD catalog"
+  }
+]
