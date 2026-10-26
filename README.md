@@ -1,53 +1,34 @@
-# Independent multi-playlist repo
+# falcondoc/scrape — fixed independent playlists
 
-No dependency on another GitHub raw playlist. Each `playlistN` is built by its own scraper/prober.
+Same filenames / order. No dependency on other repos for day-to-day updates.
 
-| File | Source (scraped/probed) | Workflow | Default mode time |
-|------|-------------------------|----------|-------------------|
-| `playlist1.m3u` | **kaamdesi.com** | Update playlist1 | refresh ~1–3 min |
-| `playlist2.m3u` | **desihub.org** | Update playlist2 | ~2–5 min |
-| `playlist3.m3u` | **pornhao.com** | Update playlist3 | ~3–8 min (8 models × 8 videos) |
-| `playlist4.m3u` | **local live_catalog** (probe only) | Update playlist4 | ~1–3 min |
+| File | Content | Update job |
+|------|---------|------------|
+| `playlist1.m3u` | Kaamdesi / Desi VOD (scrape) | Update playlist1 |
+| `playlist2.m3u` | Adult live IPTV (local catalog, **soft probe**) | Update playlist2 |
+| `playlist3.m3u` | Pornhao performers (scrape) | Update playlist3 |
+| `playlist4.m3u` | XXX movies catalog (local, soft) | Update playlist4 |
+| `combined_playlist.m3u` | 1+2+3+4 | rebuilt by every job |
 
-## Why this is independent + fast
+## Why playlist4 went empty
 
-- No Selenium / Chrome (the old 15‑min sniffer path).
-- HTTP scrapers with parallel workers.
-- Incremental **refresh** for playlist1; limited pages/models for 2 & 3.
-- playlist4 keeps a local catalog and only publishes streams that still answer.
+Hard probe from GitHub runners hit dead/blocked IPTV hosts and wrote `#ALIVE: 0`.  
+**Soft probe** now: if every stream fails from the runner IP, the catalog is still published (player may still open some links).
 
-Dropped / not auto-scraped (hosts dead or blocked from Actions IPs):
+## Push this package
 
-- unitv20.com movie dumps (403)
-- hmaal.net ullu/alt (timeout)
-- antik/dash DRM packs (404 / DRM keys)
+Overwrite repo files with this zip contents, then:
 
-You can still expand playlist4 catalog with any external M3U once via workflow input `import_url`.
+1. Actions → **Update playlist2** once (rewrites non-empty p2)
+2. Actions → **Update playlist4** once (rewrites non-empty p4)
+3. Or just commit the seeded `playlist2.m3u` / `playlist4.m3u` / `combined_playlist.m3u` from this zip
 
-## Setup
-
-1. Unzip into a public repo (e.g. `falcondoc/scrape`).
-2. Push.
-3. Run each workflow once (playlist2 needs a first run to fill).
-4. Cron keeps them warm every 6h (staggered minutes).
-
-## Raw URLs
+Raw URLs stay:
 
 ```
-https://raw.githubusercontent.com/<you>/<repo>/main/playlist1.m3u
-https://raw.githubusercontent.com/<you>/<repo>/main/playlist2.m3u
-https://raw.githubusercontent.com/<you>/<repo>/main/playlist3.m3u
-https://raw.githubusercontent.com/<you>/<repo>/main/playlist4.m3u
+https://raw.githubusercontent.com/falcondoc/scrape/main/playlist1.m3u
+https://raw.githubusercontent.com/falcondoc/scrape/main/playlist2.m3u
+https://raw.githubusercontent.com/falcondoc/scrape/main/playlist3.m3u
+https://raw.githubusercontent.com/falcondoc/scrape/main/playlist4.m3u
+https://raw.githubusercontent.com/falcondoc/scrape/main/combined_playlist.m3u
 ```
-
-## Local
-
-```bash
-pip install -r requirements.txt
-python scripts/scrape_desi.py --mode refresh
-python scripts/scrape_desihub.py --pages 5
-python scripts/scrape_pornhao.py --max-models 8 --max-per-model 8
-python scripts/refresh_live_iptv.py
-```
-
-18+ only.
