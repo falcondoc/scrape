@@ -1,0 +1,9 @@
+{
+  "name": "playlist3",
+  "label": "MPD / DRM Adult TV (u)",
+  "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u",
+  "entries": 233,
+  "bytes": 45716,
+  "refreshed_utc": "2026-10-26T06:37:27.241608+00:00",
+  "file": "playlist3.m3u"
+}

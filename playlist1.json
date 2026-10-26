@@ -1,0 +1,9 @@
+{
+  "name": "playlist1",
+  "label": "Desi / Kaamdesi VOD",
+  "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u",
+  "entries": 600,
+  "bytes": 143320,
+  "refreshed_utc": "2026-10-26T06:37:26.413720+00:00",
+  "file": "playlist1.m3u"
+}
