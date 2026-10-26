@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-10-26 06:37 UTC
+#REFRESHED: 2026-10-26 06:44 UTC
 #GENERATOR: mirror_sources.py
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
