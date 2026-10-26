@@ -1,54 +1,53 @@
-# Multi-source adult playlists (playlist1 / playlist2 / …)
+# Independent multi-playlist repo
 
-Mirrors external M3U sources into this repo as numbered playlists so you can
-extend / combine them for OTT Navigator.
+No dependency on another GitHub raw playlist. Each `playlistN` is built by its own scraper/prober.
 
-## Raw URLs (after first successful Actions run)
+| File | Source (scraped/probed) | Workflow | Default mode time |
+|------|-------------------------|----------|-------------------|
+| `playlist1.m3u` | **kaamdesi.com** | Update playlist1 | refresh ~1–3 min |
+| `playlist2.m3u` | **desihub.org** | Update playlist2 | ~2–5 min |
+| `playlist3.m3u` | **pornhao.com** | Update playlist3 | ~3–8 min (8 models × 8 videos) |
+| `playlist4.m3u` | **local live_catalog** (probe only) | Update playlist4 | ~1–3 min |
+
+## Why this is independent + fast
+
+- No Selenium / Chrome (the old 15‑min sniffer path).
+- HTTP scrapers with parallel workers.
+- Incremental **refresh** for playlist1; limited pages/models for 2 & 3.
+- playlist4 keeps a local catalog and only publishes streams that still answer.
+
+Dropped / not auto-scraped (hosts dead or blocked from Actions IPs):
+
+- unitv20.com movie dumps (403)
+- hmaal.net ullu/alt (timeout)
+- antik/dash DRM packs (404 / DRM keys)
+
+You can still expand playlist4 catalog with any external M3U once via workflow input `import_url`.
+
+## Setup
+
+1. Unzip into a public repo (e.g. `falcondoc/scrape`).
+2. Push.
+3. Run each workflow once (playlist2 needs a first run to fill).
+4. Cron keeps them warm every 6h (staggered minutes).
+
+## Raw URLs
 
 ```
 https://raw.githubusercontent.com/<you>/<repo>/main/playlist1.m3u
 https://raw.githubusercontent.com/<you>/<repo>/main/playlist2.m3u
 https://raw.githubusercontent.com/<you>/<repo>/main/playlist3.m3u
 https://raw.githubusercontent.com/<you>/<repo>/main/playlist4.m3u
-https://raw.githubusercontent.com/<you>/<repo>/main/combined_playlist.m3u
 ```
-
-## Mapping (default sources.json)
-
-| File | Source | Content |
-|------|--------|---------|
-| `playlist1.m3u` | falcondoc/above18 `playlist1.m3u` | Desi / Kaamdesi VOD |
-| `playlist2.m3u` | falcondoc/above18 `s.m3u` | Adult live + VOD |
-| `playlist3.m3u` | falcondoc/above18 `u.m3u` | MPD / DRM adult TV |
-| `playlist4.m3u` | falcondoc/above18 `x.m3u` | XXX movie catalog |
-| `combined_playlist.m3u` | all of the above | single file concat |
-
-Edit `sources.json` to add/remove/reorder sources. Numbering is always
-`playlist1` … `playlistN` in list order.
-
-## Actions
-
-- Workflow: **Update Source Playlists**
-- Cron: every 6 hours
-- Manual: Actions → Update Source Playlists → Run workflow
 
 ## Local
 
 ```bash
-python scripts/mirror_sources.py
+pip install -r requirements.txt
+python scripts/scrape_desi.py --mode refresh
+python scripts/scrape_desihub.py --pages 5
+python scripts/scrape_pornhao.py --max-models 8 --max-per-model 8
+python scripts/refresh_live_iptv.py
 ```
 
-Writes `playlistN.m3u` + `playlistN.json` meta + `combined_playlist.m3u`.
-
-## Extend
-
-1. Add a new object to `sources.json` with `"label"` + `"url"`.
-2. Push / wait for Actions (or run the script locally and commit).
-3. New file appears as the next `playlistN.m3u`.
-
-## Notes
-
-- This package only **mirrors** remote M3Us. It does not re-scrape sites.
-- Your existing pornhao performer scraper package stays separate
-  (`playlist.m3u` from `build_master_m3u.py`).
-- 18+ only.
+18+ only.
