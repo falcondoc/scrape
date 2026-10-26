@@ -2,5 +2,6 @@
   "name": "playlist2",
   "label": "Adult Live IPTV",
   "entries": 361,
-  "mode": "seed"
+  "refreshed_utc": "2026-10-26T08:26:02.979756+00:00",
+  "note": "probe unreachable from runner; catalog kept"
 }

@@ -1,6 +1,6 @@
 #EXTM3U
 #COMBINED: playlist1+2+3+4
-#REFRESHED: 2026-10-26 08:20 UTC
+#REFRESHED: 2026-10-26 08:26 UTC
 
 # --- playlist1.m3u (600 streams) ---
 
@@ -2405,9 +2405,10 @@ https://server15.mmsbee1.xyz/uploads/myfiless/id/65263.mp4
 https://server15.mmsbee1.xyz/uploads/myfiless/id/65262.mp4
 
 # --- playlist2.m3u (361 streams) ---
-#SOURCE: live adult (local catalog)
-#REFRESHED: 2026-10-26 08:14 UTC
+#SOURCE: live_catalog
+#REFRESHED: 2026-10-26 08:26 UTC
 #ENTRIES: 361
+#NOTE: probe unreachable from runner; catalog kept
 
 #EXTINF:-1 tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
