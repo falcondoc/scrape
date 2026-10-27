@@ -3,7 +3,10 @@
   "label": "XXX Movies (x)",
   "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/x.m3u",
   "entries": 542,
+  "entries_live": 0,
+  "entries_parsed": 542,
   "bytes": 168728,
-  "refreshed_utc": "2026-10-27T07:50:13.466002+00:00",
-  "file": "playlist4.m3u"
+  "refreshed_utc": null,
+  "file": "playlist4.m3u",
+  "kept_previous": true
 }

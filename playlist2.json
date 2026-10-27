@@ -2,11 +2,11 @@
   "name": "playlist2",
   "label": "Adult Live + VOD (s)",
   "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
-  "entries": 43,
-  "entries_live": 43,
+  "entries": 16,
+  "entries_live": 16,
   "entries_parsed": 361,
-  "bytes": 11133,
-  "refreshed_utc": "2026-10-27T08:19:23.425028+00:00",
+  "bytes": 4162,
+  "refreshed_utc": "2026-10-27T08:53:46.534961+00:00",
   "file": "playlist2.m3u",
   "kept_previous": false
 }

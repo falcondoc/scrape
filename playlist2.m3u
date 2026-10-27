@@ -1,9 +1,9 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-10-27 08:19 UTC
+#REFRESHED: 2026-10-27 08:53 UTC
 #GENERATOR: mirror_sources.py (live-filter)
-#ENTRIES: 43
+#ENTRIES: 16
 #NOTE: only channels that returned HTTP 2xx on probe
 
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
@@ -33,6 +33,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260427.ts
 #EXTINF:-1 tvg-id="260428" tvg-name="PORNBOX: NEW SENSATIONS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: NEW SENSATIONS
 http://rrc1n3.top:80/live/a35758346/112233Aa/260428.ts
 
+#EXTINF:-1 tvg-id="260429" tvg-name="PORNBOX: PASSION" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: PASSION
+http://rrc1n3.top:80/live/a35758346/112233Aa/260429.ts
+
 #EXTINF:-1 tvg-id="260430" tvg-name="PORNBOX: REALITY KINGS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: REALITY KINGS
 http://rrc1n3.top:80/live/a35758346/112233Aa/260430.ts
 
@@ -50,87 +53,3 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260434.ts
 
 #EXTINF:-1 tvg-id="260435" tvg-name="PORNBOX: MOMMY BLOWS BEST" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MOMMY BLOWS BEST
 http://rrc1n3.top:80/live/a35758346/112233Aa/260435.ts
-
-#EXTINF:-1 tvg-id="260451" tvg-name="PORNBOX: FAMILY SWAP XXX" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: FAMILY SWAP XXX
-http://rrc1n3.top:80/live/a35758346/112233Aa/260451.ts
-
-#EXTINF:-1 tvg-id="260484" tvg-name="PORNBOX: SWEET SINNER" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: SWEET SINNER
-http://rrc1n3.top:80/live/a35758346/112233Aa/260484.ts
-
-#EXTINF:-1 tvg-id="260485" tvg-name="PORNBOX: JAYS POV" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: JAYS POV
-http://rrc1n3.top:80/live/a35758346/112233Aa/260485.ts
-
-#EXTINF:-1 tvg-id="260486" tvg-name="PORNBOX: MASSAGE ROOMS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MASSAGE ROOMS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260486.ts
-
-#EXTINF:-1 tvg-id="260487" tvg-name="PORNBOX: NUBILE FILMS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: NUBILE FILMS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260487.ts
-
-#EXTINF:-1 tvg-id="260488" tvg-name="PORNBOX: LETS DO IT" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LETS DO IT
-http://rrc1n3.top:80/live/a35758346/112233Aa/260488.ts
-
-#EXTINF:-1 tvg-id="260489" tvg-name="PORNBOX: LIFE SELECTOR" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LIFE SELECTOR
-http://rrc1n3.top:80/live/a35758346/112233Aa/260489.ts
-
-#EXTINF:-1 tvg-id="260490" tvg-name="PORNBOX: LOVE HER ASS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LOVE HER ASS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260490.ts
-
-#EXTINF:-1 tvg-id="260491" tvg-name="PORNBOX: FAKEHUB ORIGINALS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: FAKEHUB ORIGINALS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260491.ts
-
-#EXTINF:-1 tvg-id="260492" tvg-name="PORNBOX: MIKES APARTMENT" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MIKES APARTMENT
-http://rrc1n3.top:80/live/a35758346/112233Aa/260492.ts
-
-#EXTINF:-1 tvg-id="260493" tvg-name="PORNBOX: MILE HIGH" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MILE HIGH
-http://rrc1n3.top:80/live/a35758346/112233Aa/260493.ts
-
-#EXTINF:-1 tvg-id="260494" tvg-name="PORNBOX: SEX WORKING" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: SEX WORKING
-http://rrc1n3.top:80/live/a35758346/112233Aa/260494.ts
-
-#EXTINF:-1 tvg-id="260495" tvg-name="PORNBOX: MOFOS B SIDES" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MOFOS B SIDES
-http://rrc1n3.top:80/live/a35758346/112233Aa/260495.ts
-
-#EXTINF:-1 tvg-id="260496" tvg-name="PORNBOX: MOFOS LAB" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MOFOS LAB
-http://rrc1n3.top:80/live/a35758346/112233Aa/260496.ts
-
-#EXTINF:-1 tvg-id="260497" tvg-name="PORNBOX: INTERRACIAL PASS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: INTERRACIAL PASS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260497.ts
-
-#EXTINF:-1 tvg-id="260498" tvg-name="PORNBOX: FILTHY POV" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: FILTHY POV
-http://rrc1n3.top:80/live/a35758346/112233Aa/260498.ts
-
-#EXTINF:-1 tvg-id="260499" tvg-name="PORNBOX: MONEY TALKS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MONEY TALKS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260499.ts
-
-#EXTINF:-1 tvg-id="260574" tvg-name="VERIFIED AMATEURS: LEAH MEOW" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: LEAH MEOW
-http://rrc1n3.top:80/live/a35758346/112233Aa/260574.ts
-
-#EXTINF:-1 tvg-id="260575" tvg-name="VERIFIED AMATEURS: LUXURYGIRL" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: LUXURYGIRL
-http://rrc1n3.top:80/live/a35758346/112233Aa/260575.ts
-
-#EXTINF:-1 tvg-id="260576" tvg-name="VERIFIED AMATEURS: MIKANIKA69" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: MIKANIKA69
-http://rrc1n3.top:80/live/a35758346/112233Aa/260576.ts
-
-#EXTINF:-1 tvg-id="260578" tvg-name="VERIFIED AMATEURS: MOLLYREDWOLF" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: MOLLYREDWOLF
-http://rrc1n3.top:80/live/a35758346/112233Aa/260578.ts
-
-#EXTINF:-1 tvg-id="260579" tvg-name="VERIFIED AMATEURS: NOFACEGIRL" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: NOFACEGIRL
-http://rrc1n3.top:80/live/a35758346/112233Aa/260579.ts
-
-#EXTINF:-1 tvg-id="260581" tvg-name="VERIFIED AMATEURS: NYNA FERRAGNI" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",VERIFIED AMATEURS: NYNA FERRAGNI
-http://rrc1n3.top:80/live/a35758346/112233Aa/260581.ts
-
-#EXTINF:-1 tvg-id="260597" tvg-name="PORNHUBÃ¢Å“Â°CHANNEL: BRAZZERS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNHUBÃ¢Å“Â°CHANNEL: BRAZZERS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260597.ts
-
-#EXTINF:-1 tvg-id="260598" tvg-name="PORNHUBÃ¢Å“Â°CHANNEL: BRATTY SIS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNHUBÃ¢Å“Â°CHANNEL: BRATTY SIS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260598.ts
-
-#EXTINF:-1 tvg-id="260599" tvg-name="PORNHUBÃ¢Å“Â°CHANNEL: 1111 CUSTOMERS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNHUBÃ¢Å“Â°CHANNEL: 1111 CUSTOMERS
-http://rrc1n3.top:80/live/a35758346/112233Aa/260599.ts
-
-#EXTINF:-1 tvg-id="260616" tvg-name="PORNHUBÃ¢Å“Â°CATAGORIES: OUTDOOR" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNHUBÃ¢Å“Â°CATAGORIES: OUTDOOR
-http://rrc1n3.top:80/live/a35758346/112233Aa/260616.ts
-
-#EXTINF:-1 tvg-id="260617" tvg-name="PORNHUBÃ¢Å“Â°CATAGORIES: ROMANCE" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNHUBÃ¢Å“Â°CATAGORIES: ROMANCE
-http://rrc1n3.top:80/live/a35758346/112233Aa/260617.ts
