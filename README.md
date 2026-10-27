@@ -1,7 +1,14 @@
-# Multi-source adult playlists (playlist1 / playlist2 / …)
+# Multi-source adult playlists (live-filtered)
 
-Mirrors external M3U sources into this repo as numbered playlists so you can
-extend / combine them for OTT Navigator.
+Mirrors external M3U sources into numbered playlists and **keeps only channels that still answer**.
+
+Every refresh:
+1. fetch upstream M3U
+2. parse every `#EXTINF` block
+3. probe the stream URL (HEAD → short GET)
+4. drop timeouts, 403/404, DNS failures, HTML error pages
+5. write `playlistN.m3u` with survivors only
+6. if a run returns almost nothing, keep the previous good file
 
 ## Raw URLs (after first successful Actions run)
 
@@ -19,12 +26,9 @@ https://raw.githubusercontent.com/<you>/<repo>/main/combined_playlist.m3u
 |------|--------|---------|
 | `playlist1.m3u` | falcondoc/above18 `playlist1.m3u` | Desi / Kaamdesi VOD |
 | `playlist2.m3u` | falcondoc/above18 `s.m3u` | Adult live + VOD |
-| `playlist3.m3u` | falcondoc/above18 `u.m3u` | MPD / DRM adult TV |
+| `playlist3.m3u` | falcondoc/above18 `u.m3u` | MPD / DRM adult TV + cams |
 | `playlist4.m3u` | falcondoc/above18 `x.m3u` | XXX movie catalog |
-| `combined_playlist.m3u` | all of the above | single file concat |
-
-Edit `sources.json` to add/remove/reorder sources. Numbering is always
-`playlist1` … `playlistN` in list order.
+| `combined_playlist.m3u` | all of the above | single live-filtered concat |
 
 ## Actions
 
@@ -38,7 +42,15 @@ Edit `sources.json` to add/remove/reorder sources. Numbering is always
 python scripts/mirror_sources.py
 ```
 
-Writes `playlistN.m3u` + `playlistN.json` meta + `combined_playlist.m3u`.
+Writes `playlistN.m3u` + `playlistN.json` meta + `combined_playlist.m3u` + `sources_status.json`.
+
+## Behaviour
+
+- **Live filter**: only HTTP 2xx media responses are kept
+- **Antik**: uses Smart-TV UA + Referer so DASH manifests answer
+- **Last-known-good**: if a source suddenly returns near-zero live channels, the previous file is kept
+- **DRM props**: original `#KODIPROP` / `#EXTHTTP` lines are preserved on surviving entries
+- No site scraping — this package only mirrors + health-checks remote M3Us
 
 ## Extend
 
@@ -48,7 +60,6 @@ Writes `playlistN.m3u` + `playlistN.json` meta + `combined_playlist.m3u`.
 
 ## Notes
 
-- This package only **mirrors** remote M3Us. It does not re-scrape sites.
-- Your existing pornhao performer scraper package stays separate
-  (`playlist.m3u` from `build_master_m3u.py`).
-- 18+ only.
+- 18+ only
+- Widevine / ClearKey channels still need a player that supports DASH + DRM
+- Free linear streams die; this setup just stops serving the corpses

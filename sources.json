@@ -2,21 +2,21 @@
   {
     "label": "Desi / Kaamdesi VOD",
     "url": "https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u",
-    "note": "playlist1 — desi short clips (kaamdesi / mmsbee)"
+    "note": "playlist1 — desi short clips (kaamdesi / mmsbee). Live-filtered on every run."
   },
   {
     "label": "Adult Live + VOD (s)",
     "url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
-    "note": "s.m3u — live adult channels + some VOD"
+    "note": "s.m3u — live adult channels + some VOD. Dead links stripped."
   },
   {
     "label": "MPD / DRM Adult TV (u)",
     "url": "https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u",
-    "note": "u.m3u — dash/MPD adult channels (Babes, Dorcel, etc.)"
+    "note": "u.m3u — Antik DASH/MPD + cams. Only HTTP 2xx kept (Widevine props preserved)."
   },
   {
     "label": "XXX Movies (x)",
     "url": "https://raw.githubusercontent.com/falcondoc/above18/main/x.m3u",
-    "note": "x.m3u — adult movie VOD catalog"
+    "note": "x.m3u — adult movie VOD catalog. Dead entries dropped."
   }
 ]

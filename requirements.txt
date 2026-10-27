@@ -1,1 +1,2 @@
-# mirror_sources.py is stdlib-only; keep file for future scrapers
+# mirror_sources.py is stdlib-only (urllib, concurrent.futures, ssl, re, json)
+# no pip packages required

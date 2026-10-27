@@ -1,8 +1,11 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u
 #LABEL: Desi / Kaamdesi VOD
-#REFRESHED: 2026-10-27 07:50 UTC
-#GENERATOR: mirror_sources.py
+#REFRESHED: 2026-10-27 08:19 UTC
+#GENERATOR: mirror_sources.py (live-filter)
+#ENTRIES: 600
+#NOTE: only channels that returned HTTP 2xx on probe
+
 #EXTINF:-1 tvg-logo="https://kaamdesi.com/pictures/70716.jpg",Innocent Tamil Babe Sucking Dick Riding
 #EXTVLCOPT:http-referrer=https://kaamdesi.com/innocent-tamil-babe-sucking-dick-riding
 https://server15.mmsbee1.xyz/uploads/myfiless/id/70716.mp4

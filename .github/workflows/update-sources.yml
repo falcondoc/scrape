@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Mirror external sources → playlist1..N
+      - name: Mirror + live-filter sources → playlist1..N
         run: python scripts/mirror_sources.py
 
       - name: Commit and push if changed
@@ -39,7 +39,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: refresh mirrored playlists [skip ci]"
+          git commit -m "chore: refresh live-filtered playlists [skip ci]"
 
           git pull --rebase origin main || true
 
