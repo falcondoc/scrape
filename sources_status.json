@@ -1,5 +1,5 @@
 {
-  "refreshed_utc": "2026-10-26T22:05:40.754030+00:00",
+  "refreshed_utc": "2026-10-27T02:54:35.637143+00:00",
   "count": 4,
   "items": [
     {
@@ -8,7 +8,7 @@
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u",
       "entries": 600,
       "bytes": 143320,
-      "refreshed_utc": "2026-10-26T22:05:38.405507+00:00",
+      "refreshed_utc": "2026-10-27T02:54:33.270295+00:00",
       "file": "playlist1.m3u"
     },
     {
@@ -17,7 +17,7 @@
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
       "entries": 361,
       "bytes": 91813,
-      "refreshed_utc": "2026-10-26T22:05:39.012685+00:00",
+      "refreshed_utc": "2026-10-27T02:54:33.825634+00:00",
       "file": "playlist2.m3u"
     },
     {
@@ -26,7 +26,7 @@
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u",
       "entries": 233,
       "bytes": 45716,
-      "refreshed_utc": "2026-10-26T22:05:39.563821+00:00",
+      "refreshed_utc": "2026-10-27T02:54:34.570425+00:00",
       "file": "playlist3.m3u"
     },
     {
@@ -35,7 +35,7 @@
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/x.m3u",
       "entries": 542,
       "bytes": 168728,
-      "refreshed_utc": "2026-10-26T22:05:40.351579+00:00",
+      "refreshed_utc": "2026-10-27T02:54:35.234635+00:00",
       "file": "playlist4.m3u"
     }
   ]
