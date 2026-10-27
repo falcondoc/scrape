@@ -1,6 +1,6 @@
 #EXTM3U
 #COMBINED: 4 sources (live-filtered)
-#REFRESHED: 2026-10-27 08:54 UTC
+#REFRESHED: 2026-10-27 11:16 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 
 # --- playlist1 | Desi / Kaamdesi VOD | 600 live ---
@@ -2405,7 +2405,7 @@ https://server15.mmsbee1.xyz/uploads/myfiless/id/65263.mp4
 #EXTVLCOPT:http-referrer=https://kaamdesi.com/sexy-desi-bhabhi-bathing-6
 https://server15.mmsbee1.xyz/uploads/myfiless/id/65262.mp4
 
-# --- playlist2 | Adult Live + VOD (s) | 16 live ---
+# --- playlist2 | Adult Live + VOD (s) | 15 live ---
 
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
@@ -2427,9 +2427,6 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260425.ts
 
 #EXTINF:-1 tvg-id="260426" tvg-name="PORNBOX: LETHAL HARDCORE" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LETHAL HARDCORE
 http://rrc1n3.top:80/live/a35758346/112233Aa/260426.ts
-
-#EXTINF:-1 tvg-id="260427" tvg-name="PORNBOX: MY LIFE IN MIAMI" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MY LIFE IN MIAMI
-http://rrc1n3.top:80/live/a35758346/112233Aa/260427.ts
 
 #EXTINF:-1 tvg-id="260428" tvg-name="PORNBOX: NEW SENSATIONS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: NEW SENSATIONS
 http://rrc1n3.top:80/live/a35758346/112233Aa/260428.ts

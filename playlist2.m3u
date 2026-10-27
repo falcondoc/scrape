@@ -1,9 +1,9 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-10-27 08:53 UTC
+#REFRESHED: 2026-10-27 11:16 UTC
 #GENERATOR: mirror_sources.py (live-filter)
-#ENTRIES: 16
+#ENTRIES: 15
 #NOTE: only channels that returned HTTP 2xx on probe
 
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
@@ -26,9 +26,6 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260425.ts
 
 #EXTINF:-1 tvg-id="260426" tvg-name="PORNBOX: LETHAL HARDCORE" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LETHAL HARDCORE
 http://rrc1n3.top:80/live/a35758346/112233Aa/260426.ts
-
-#EXTINF:-1 tvg-id="260427" tvg-name="PORNBOX: MY LIFE IN MIAMI" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MY LIFE IN MIAMI
-http://rrc1n3.top:80/live/a35758346/112233Aa/260427.ts
 
 #EXTINF:-1 tvg-id="260428" tvg-name="PORNBOX: NEW SENSATIONS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: NEW SENSATIONS
 http://rrc1n3.top:80/live/a35758346/112233Aa/260428.ts
