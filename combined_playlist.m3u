@@ -1,6 +1,6 @@
 #EXTM3U
 #COMBINED: 4 sources (live-filtered)
-#REFRESHED: 2026-10-27 21:36 UTC
+#REFRESHED: 2026-10-28 03:04 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 
 # --- playlist1 | Desi / Kaamdesi VOD | 600 live ---
@@ -2431,6 +2431,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260426.ts
 #EXTINF:-1 tvg-id="260427" tvg-name="PORNBOX: MY LIFE IN MIAMI" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MY LIFE IN MIAMI
 http://rrc1n3.top:80/live/a35758346/112233Aa/260427.ts
 
+#EXTINF:-1 tvg-id="260428" tvg-name="PORNBOX: NEW SENSATIONS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: NEW SENSATIONS
+http://rrc1n3.top:80/live/a35758346/112233Aa/260428.ts
+
 #EXTINF:-1 tvg-id="260429" tvg-name="PORNBOX: PASSION" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: PASSION
 http://rrc1n3.top:80/live/a35758346/112233Aa/260429.ts
 
@@ -2445,9 +2448,6 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260432.ts
 
 #EXTINF:-1 tvg-id="260433" tvg-name="PORNBOX: KINKY FAMILY" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: KINKY FAMILY
 http://rrc1n3.top:80/live/a35758346/112233Aa/260433.ts
-
-#EXTINF:-1 tvg-id="260434" tvg-name="PORNBOX: DREAMROOM" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: DREAMROOM
-http://rrc1n3.top:80/live/a35758346/112233Aa/260434.ts
 
 #EXTINF:-1 tvg-id="260435" tvg-name="PORNBOX: MOMMY BLOWS BEST" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MOMMY BLOWS BEST
 http://rrc1n3.top:80/live/a35758346/112233Aa/260435.ts
