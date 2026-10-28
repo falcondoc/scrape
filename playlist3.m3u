@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u
 #LABEL: MPD / DRM Adult TV (u)
-#REFRESHED: 2026-10-28 11:50 UTC
+#REFRESHED: 2026-10-28 17:39 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 #ENTRIES: 52
 #NOTE: only channels that returned HTTP 2xx on probe
