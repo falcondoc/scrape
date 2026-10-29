@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-10-29 03:30 UTC
+#REFRESHED: 2026-10-29 11:58 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 #ENTRIES: 15
 #NOTE: only channels that returned HTTP 2xx on probe
