@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/playlist1.m3u
 #LABEL: Desi / Kaamdesi VOD
-#REFRESHED: 2026-10-28 22:00 UTC
+#REFRESHED: 2026-10-29 03:29 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 #ENTRIES: 600
 #NOTE: only channels that returned HTTP 2xx on probe
