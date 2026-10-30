@@ -1,7 +1,7 @@
 {
   "sources": 4,
-  "total_entries": 1210,
-  "refreshed_utc": "2026-10-29T18:02:33.227474+00:00",
+  "total_entries": 1209,
+  "refreshed_utc": "2026-10-30T03:32:58.987223+00:00",
   "playlists": [
     {
       "name": "playlist1",
@@ -11,7 +11,7 @@
       "entries_live": 600,
       "entries_parsed": 600,
       "bytes": 143402,
-      "refreshed_utc": "2026-10-29T18:01:57.448535+00:00",
+      "refreshed_utc": "2026-10-30T03:32:24.224694+00:00",
       "file": "playlist1.m3u",
       "kept_previous": false
     },
@@ -19,11 +19,11 @@
       "name": "playlist2",
       "label": "Adult Live + VOD (s)",
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
-      "entries": 16,
-      "entries_live": 16,
+      "entries": 15,
+      "entries_live": 15,
       "entries_parsed": 361,
-      "bytes": 4162,
-      "refreshed_utc": "2026-10-29T18:02:08.904349+00:00",
+      "bytes": 3917,
+      "refreshed_utc": "2026-10-30T03:32:35.405660+00:00",
       "file": "playlist2.m3u",
       "kept_previous": false
     },
@@ -35,7 +35,7 @@
       "entries_live": 52,
       "entries_parsed": 233,
       "bytes": 14707,
-      "refreshed_utc": "2026-10-29T18:02:29.872647+00:00",
+      "refreshed_utc": "2026-10-30T03:32:56.258493+00:00",
       "file": "playlist3.m3u",
       "kept_previous": false
     },
