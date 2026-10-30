@@ -1,9 +1,9 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-10-30 11:51 UTC
+#REFRESHED: 2026-10-30 17:27 UTC
 #GENERATOR: mirror_sources.py (live-filter)
-#ENTRIES: 15
+#ENTRIES: 16
 #NOTE: only channels that returned HTTP 2xx on probe
 
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
@@ -38,6 +38,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260429.ts
 
 #EXTINF:-1 tvg-id="260430" tvg-name="PORNBOX: REALITY KINGS" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: REALITY KINGS
 http://rrc1n3.top:80/live/a35758346/112233Aa/260430.ts
+
+#EXTINF:-1 tvg-id="260431" tvg-name="PORNBOX: BLOW ME POV" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: BLOW ME POV
+http://rrc1n3.top:80/live/a35758346/112233Aa/260431.ts
 
 #EXTINF:-1 tvg-id="260432" tvg-name="PORNBOX: GOTMYLF" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: GOTMYLF
 http://rrc1n3.top:80/live/a35758346/112233Aa/260432.ts
