@@ -1,6 +1,6 @@
 #EXTM3U
 #COMBINED: 4 sources (live-filtered)
-#REFRESHED: 2026-11-04 04:01 UTC
+#REFRESHED: 2026-11-04 13:35 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 
 # --- playlist1 | Desi / Kaamdesi VOD | 600 live ---
@@ -2405,7 +2405,7 @@ https://server15.mmsbee1.xyz/uploads/myfiless/id/65263.mp4
 #EXTVLCOPT:http-referrer=https://kaamdesi.com/sexy-desi-bhabhi-bathing-6
 https://server15.mmsbee1.xyz/uploads/myfiless/id/65262.mp4
 
-# --- playlist2 | Adult Live + VOD (s) | 15 live ---
+# --- playlist2 | Adult Live + VOD (s) | 16 live ---
 
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV FHD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV FHD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
@@ -2415,6 +2415,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260419.ts
 
 #EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot HD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",Sexy Hot HD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260420.ts
+
+#EXTINF:-1 tvg-id="260423" tvg-name="PORNBOX: BANG BROS NETWORK" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: BANG BROS NETWORK
+http://rrc1n3.top:80/live/a35758346/112233Aa/260423.ts
 
 #EXTINF:-1 tvg-id="260424" tvg-name="PORNBOX: EVIL ANGEL" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: EVIL ANGEL
 http://rrc1n3.top:80/live/a35758346/112233Aa/260424.ts
