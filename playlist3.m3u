@@ -1,9 +1,9 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u
 #LABEL: MPD / DRM Adult TV (u)
-#REFRESHED: 2026-11-06 13:28 UTC
+#REFRESHED: 2026-11-06 22:32 UTC
 #GENERATOR: mirror_sources.py (live-filter)
-#ENTRIES: 51
+#ENTRIES: 52
 #NOTE: only channels that returned HTTP 2xx on probe
 
 #EXTINF:-1 tvg-id="MPD" tvg-logo="https://i.imgur.com/Z7trxue.png" group-title="MPD",MensNeco
@@ -108,6 +108,12 @@ https://dash3.antik.sk/stream/hisi_passion_xxx/playlist_cbcs.mpd
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://drm.antik.sk/widevine/key
 https://dash3.antik.sk/stream/hisi_reality_tv/playlist_cbcs.mpd
+
+#EXTINF:-1 tvg-id="" tvg-name="Playboy" tvg-logo="https://miamitv.com/images/680a4d6de878f_Miami%20TV%20Models.jpg" group-title="Adult TV",Miami TV Models
+#EXTVLCOPT:http-origin=https://miamitv.com
+#EXTVLCOPT:http-referrer=https://miamitv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0
+https://59ec5453559f0.streamlock.net/miamitvmodels/smil:529634/playlist.m3u8
 
 #EXTINF:-1 group-title="Adult TV",PassionXXX HD
 https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
