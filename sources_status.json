@@ -1,5 +1,5 @@
 {
-  "refreshed_utc": "2026-11-06T04:19:21.293052+00:00",
+  "refreshed_utc": "2026-11-06T13:34:45.545778+00:00",
   "count": 4,
   "mode": "live-filter",
   "items": [
@@ -11,7 +11,7 @@
       "entries_live": 600,
       "entries_parsed": 600,
       "bytes": 143402,
-      "refreshed_utc": "2026-11-06T04:12:54.424557+00:00",
+      "refreshed_utc": "2026-11-06T13:27:59.419797+00:00",
       "file": "playlist1.m3u",
       "kept_previous": false
     },
@@ -19,11 +19,11 @@
       "name": "playlist2",
       "label": "Adult Live + VOD (s)",
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u",
-      "entries": 16,
-      "entries_live": 16,
+      "entries": 15,
+      "entries_live": 15,
       "entries_parsed": 361,
-      "bytes": 4162,
-      "refreshed_utc": "2026-11-06T04:13:09.942215+00:00",
+      "bytes": 3909,
+      "refreshed_utc": "2026-11-06T13:28:13.762694+00:00",
       "file": "playlist2.m3u",
       "kept_previous": false
     },
@@ -31,11 +31,11 @@
       "name": "playlist3",
       "label": "MPD / DRM Adult TV (u)",
       "source_url": "https://raw.githubusercontent.com/falcondoc/above18/main/u.m3u",
-      "entries": 52,
-      "entries_live": 52,
+      "entries": 51,
+      "entries_live": 51,
       "entries_parsed": 233,
-      "bytes": 14707,
-      "refreshed_utc": "2026-11-06T04:13:31.089189+00:00",
+      "bytes": 14277,
+      "refreshed_utc": "2026-11-06T13:28:34.992759+00:00",
       "file": "playlist3.m3u",
       "kept_previous": false
     },
