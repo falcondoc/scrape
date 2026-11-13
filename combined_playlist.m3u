@@ -1,6 +1,6 @@
 #EXTM3U
 #COMBINED: 4 sources (live-filtered)
-#REFRESHED: 2026-11-13 04:06 UTC
+#REFRESHED: 2026-11-13 13:39 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 
 # --- playlist1 | Desi / Kaamdesi VOD | 599 live ---
@@ -2409,6 +2409,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV HD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV HD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260419.ts
 
+#EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot HD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",Sexy Hot HD
+http://rrc1n3.top:80/live/a35758346/112233Aa/260420.ts
+
 #EXTINF:-1 tvg-id="260423" tvg-name="PORNBOX: BANG BROS NETWORK" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: BANG BROS NETWORK
 http://rrc1n3.top:80/live/a35758346/112233Aa/260423.ts
 
@@ -2435,9 +2438,6 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260430.ts
 
 #EXTINF:-1 tvg-id="260431" tvg-name="PORNBOX: BLOW ME POV" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: BLOW ME POV
 http://rrc1n3.top:80/live/a35758346/112233Aa/260431.ts
-
-#EXTINF:-1 tvg-id="260432" tvg-name="PORNBOX: GOTMYLF" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: GOTMYLF
-http://rrc1n3.top:80/live/a35758346/112233Aa/260432.ts
 
 #EXTINF:-1 tvg-id="260433" tvg-name="PORNBOX: KINKY FAMILY" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: KINKY FAMILY
 http://rrc1n3.top:80/live/a35758346/112233Aa/260433.ts
