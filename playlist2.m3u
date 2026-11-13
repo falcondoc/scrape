@@ -1,7 +1,7 @@
 #EXTM3U
 #SOURCE: https://raw.githubusercontent.com/falcondoc/above18/main/s.m3u
 #LABEL: Adult Live + VOD (s)
-#REFRESHED: 2026-11-12 22:58 UTC
+#REFRESHED: 2026-11-13 04:06 UTC
 #GENERATOR: mirror_sources.py (live-filter)
 #ENTRIES: 15
 #NOTE: only channels that returned HTTP 2xx on probe
@@ -12,9 +12,6 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260418.ts
 #EXTINF:-1 tvg-id="Playboytv.br" tvg-name="PlayBoy TV HD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PlayBoy TV HD
 http://rrc1n3.top:80/live/a35758346/112233Aa/260419.ts
 
-#EXTINF:-1 tvg-id="Sexyhot.br" tvg-name="Sexy Hot HD" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",Sexy Hot HD
-http://rrc1n3.top:80/live/a35758346/112233Aa/260420.ts
-
 #EXTINF:-1 tvg-id="260423" tvg-name="PORNBOX: BANG BROS NETWORK" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: BANG BROS NETWORK
 http://rrc1n3.top:80/live/a35758346/112233Aa/260423.ts
 
@@ -23,6 +20,9 @@ http://rrc1n3.top:80/live/a35758346/112233Aa/260424.ts
 
 #EXTINF:-1 tvg-id="260425" tvg-name="PORNBOX: FIT18" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: FIT18
 http://rrc1n3.top:80/live/a35758346/112233Aa/260425.ts
+
+#EXTINF:-1 tvg-id="260426" tvg-name="PORNBOX: LETHAL HARDCORE" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: LETHAL HARDCORE
+http://rrc1n3.top:80/live/a35758346/112233Aa/260426.ts
 
 #EXTINF:-1 tvg-id="260427" tvg-name="PORNBOX: MY LIFE IN MIAMI" tvg-logo="http://beststorage4you.com:80/logoscanais/ADULTOS-24-HORAS.png" group-title="Canais | Adultos +18",PORNBOX: MY LIFE IN MIAMI
 http://rrc1n3.top:80/live/a35758346/112233Aa/260427.ts
