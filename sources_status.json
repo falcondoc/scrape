@@ -1,5 +1,5 @@
 {
-  "refreshed_utc": "2026-11-24T16:52:46.354214+00:00",
+  "refreshed_utc": "2026-11-25T01:55:05.861562+00:00",
   "count": 4,
   "mode": "live-filter",
   "items": [
@@ -11,7 +11,7 @@
       "entries_live": 599,
       "entries_parsed": 600,
       "bytes": 143158,
-      "refreshed_utc": "2026-11-24T16:42:50.656003+00:00",
+      "refreshed_utc": "2026-11-25T01:44:59.976295+00:00",
       "file": "playlist1.m3u",
       "kept_previous": false
     },
@@ -23,7 +23,7 @@
       "entries_live": 16,
       "entries_parsed": 361,
       "bytes": 4162,
-      "refreshed_utc": "2026-11-24T16:43:05.182036+00:00",
+      "refreshed_utc": "2026-11-25T01:45:14.961109+00:00",
       "file": "playlist2.m3u",
       "kept_previous": false
     },
@@ -35,7 +35,7 @@
       "entries_live": 52,
       "entries_parsed": 233,
       "bytes": 14707,
-      "refreshed_utc": "2026-11-24T16:43:26.209899+00:00",
+      "refreshed_utc": "2026-11-25T01:45:35.991552+00:00",
       "file": "playlist3.m3u",
       "kept_previous": false
     },
